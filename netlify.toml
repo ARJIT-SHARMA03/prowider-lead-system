@@ -1,0 +1,4 @@
+[build]
+base= "prowider-lead-system"
+command="npm runn build"
+publish =".next"
