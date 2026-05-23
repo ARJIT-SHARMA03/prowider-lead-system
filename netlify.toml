@@ -1,4 +1,8 @@
 [build]
 base= "prowider-lead-system"
-command="npm runn build"
+command="npm prisma generate && npm run build"
 publish =".next"
+
+[build.environment]
+NODE_VERSION ="20"
+NEXT_DISABLE_SOURCEMAPS ="1"
